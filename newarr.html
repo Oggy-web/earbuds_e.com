@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .card {
+            width: 25%;
+            margin: 20px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .card img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+        .card .details {
+            padding: 10px;
+        }
+        .card .details h3 {
+            margin: 0;
+            font-size: 18px;
+            font-weight: bold;
+            color: #333;
+        }
+        .card .details .price {
+            font-size: 16px;
+            color: #ff6600;
+        }
+        .card .details .discount {
+            font-size: 14px;
+            color: #008000;
+        }
+        .card .details .button {
+            display: inline-block;
+            padding: 8px 16px;
+            background-color: #ff6600;
+            color: white;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .card .details .button:hover {
+            background-color: #ff8000;
+        }
+        .card .details .features {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 10px;
+            font-size: 14px;
+        }
+        .card .details .features span {
+            display: block;
+        }
+        .card .details .features .rating {
+            color: #ffcc00;
+        }
+        .price-box {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 10px;
+        }
+        .price-box .price {
+            font-size: 16px;
+            color: #ff6600;
+        }
+        .price-box .discount {
+            font-size: 14px;
+            color: #008000;
+        }
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: white;
+            color: black;
+            padding: 20px 0;
+        }
+
+        .containerh {
+            width: 80%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo h1 {
+            font-size: 28px;
+           margin-top: 14px;
+        }
+
+        .logo p {
+            font-size: 14px;
+            font-style: italic;
+            color: #ccc;
+        }
+
+        nav ul {
+            list-style-type: none;
+            display: flex;
+        }
+
+        nav ul li {
+            margin: 0 25px;
+        }
+
+        nav ul li a {
+            color: black;
+            text-decoration: none;
+            font-size: 16px;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        .header-info {
+            font-size: 14px;
+            color: black;
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="containerh">
+            <div class="logo">
+                <h1>Decode</h1>
+                
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="main.html">Home</a></li>
+                    <li><a href="newarr.html">Shop</a></li>
+                    <li><a href="shop.html">New Arrivals</a></li>
+                    <li><a href="best.html">Best Sellers</a></li>
+                    <li><a href="feature.html">Features</a></li>
+                    <li><a href="#">Support</a></li>
+                </ul>
+            </nav>
+            <div class="header-info">
+                <p>Free Shipping on Orders Over $50 | 24/7 Customer Support</p>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="card">
+            <img src="ear1.jpg" alt="Product 1">
+            <div class="details">
+                <h3>Decode Airdopes 161</h3>
+                <div class="price-box">
+                    <div class="price">₹899</div>
+                    <div class="discount">₹2,490 64% off</div>
+                </div>
+                <div class="features">
+                    <span>ASAP™™ Charge</span>
+                    <span class="rating">4.9 172 </span>
+                </div>
+                <div class="features">
+                    <span>IWP Technology</span>
+                    <span>Best seller</span>
+                </div>
+                <a href="cart.html" class="button">Add To Cart</a>
+                <span>40 Hours Playback</span>
+            </div>
+        </div>
+        <div class="card">
+            <img src="ear2.jpg" alt="Product 2">
+            <div class="details">
+                <h3>Decode Airdopes 131</h3>
+                <div class="price-box">
+                    <div class="price">₹799</div>
+                    <div class="discount">₹2,990 73% off</div>
+                </div>
+                <div class="features">
+                    <span>13mm drivers</span>
+                    <span class="rating">4.8 1359</span>
+                </div>
+                <div class="features">
+                    <span>IWP Technology</span>
+                    <span>Best seller</span>
+                </div>
+                <a href="cart2.html" class="button">Add To Cart</a>
+                <span>60 Hours Playback</span>
+            </div>
+        </div>
+        <div class="card">
+            <img src="ear4.avif" alt="Product 3">
+            <div class="details">
+                <h3>Decode Airdopes 141</h3>
+                <div class="price-box">
+                    <div class="price">₹1,299</div>
+                    <div class="discount">₹4,490 71% off</div>
+                </div>
+                <div class="features">
+                    <span>Clear Calling</span>
+                    <span class="rating">4.9 662</span>
+                </div>
+                <div class="features">
+                    <span>ASAP™™ Charge</span>
+                    <span>Best seller</span>
+                </div>
+                <a href="#" class="button">Add To Cart</a>
+                <span>42 Hours Playback</span>
+            </div>
+        </div>
+        <div class="card">
+            <img src="ear5.jfif" alt="Product 4">
+            <div class="details">
+                <h3>Decode Headphone Ultra Plus</h3>
+                <div class="price-box">
+                    <div class="price">₹1,549</div>
+                    <div class="discount">₹4,990 69% off</div>
+                </div>
+                <div class="features">
+                    <span>ENX™™ Tech</span>
+                    <span class="rating">4.8 8</span>
+                </div>
+                <div class="features">
+                    <span>IWPTM Tech</span>
+                    <span>Recently Restocked</span>
+                </div>
+                <a href="#" class="button">Add To Cart</a>
+                <span>50 Hours Playback</span>
+            </div>
+        </div>
+        <div class="card">
+            <img src="ear7.jpg" alt="Product 5">
+            <div class="details">
+                <h3>Decode Airdopes Alpha</h3>
+                <div class="price-box">
+                    <div class="price">₹899</div>
+                    <div class="discount">₹3,490 74% off</div>
+                </div>
+                <div class="features">
+                    <span>ENX™™ Technology</span>
+                    <span class="rating">4.9 21</span>
+                </div>
+                <div class="features">
+                    <span>Recently Restocked</span>
+                </div>
+                <a href="#" class="button">Add To Cart</a>
+                <span>35 Hours Playback</span>
+            </div>
+        </div>
+        <div class="card">
+            <img src="air2.png" alt="Product 6">
+            <div class="details">
+                <h3>Decode Smm lon</h3>
+                <div class="price-box">
+                    <div class="price">₹2,299</div>
+                    <div class="discount">₹7,990 71% off</div>
+                </div>
+                <div class="features">
+                    <span>ENX™™ Technology</span>
+                    <span class="rating">5.0 77</span>
+                </div>
+                <div class="features">
+                    <span>Engraving Available</span>
+                </div>
+                <a href="#" class="button">Add To Cart</a>
+                <span>120 Hours Playback</span>
+            </div>
+        </div>
+        <div class="card">
+            <img src="wireless1-removebg-preview.png" alt="Product 1">
+            <div class="details">
+                <h3>Decode wireless 110</h3>
+                <div class="price-box">
+                    <div class="price">₹1899</div>
+                    <div class="discount">₹2,490 64% off</div>
+                </div>
+                <div class="features">
+                    <span>ASAP™™ Charge</span>
+                    <span class="rating">4.9 172 </span>
+                </div>
+                <div class="features">
+                    <span>IWP Technology</span>
+                    <span>Best seller</span>
+                </div>
+                <a href="#" class="button">Add To Cart</a>
+                <span>40 Hours Playback</span>
+            </div>
+        </div>
+        <div class="card">
+            <img src="wire2-removebg-preview.png" alt="Product 2">
+            <div class="details">
+                <h3>Decode Wireless 131</h3>
+                <div class="price-box">
+                    <div class="price">₹7999</div>
+                    <div class="discount">₹2,990 73% off</div>
+                </div>
+                <div class="features">
+                    <span>13mm drivers</span>
+                    <span class="rating">4.8 1359</span>
+                </div>
+                <div class="features">
+                    <span>IWP Technology</span>
+                    <span>Best seller</span>
+                </div>
+                <a href="#" class="button">Add To Cart</a>
+                <span>160 Hours Playback</span>
+            </div>
+        </div>
+        <div class="card">
+            <img src="head2-removebg-preview.png" alt="Product 3">
+            <div class="details">
+                <h3>Decode Headphone 141</h3>
+                <div class="price-box">
+                    <div class="price">₹1,299</div>
+                    <div class="discount">₹4,490 71% off</div>
+                </div>
+                <div class="features">
+                    <span>Clear Calling</span>
+                    <span class="rating">4.9 662</span>
+                </div>
+                <div class="features">
+                    <span>ASAP™™ Charge</span>
+                    <span>Best seller</span>
+                </div>
+                <a href="#" class="button">Add To Cart</a>
+                <span>42 Hours Playback</span>
+            </div>
+        </div>
+        <div class="card">
+            <img src="head3-removebg-preview.png" alt="Product 4">
+            <div class="details">
+                <h3>Decode headphone Ultra Gaming</h3>
+                <div class="price-box">
+                    <div class="price">₹1,549</div>
+                    <div class="discount">₹4,990 69% off</div>
+                </div>
+                <div class="features">
+                    <span>ENX™™ Tech</span>
+                    <span class="rating">4.8 8</span>
+                </div>
+                <div class="features">
+                    <span>IWPTM Tech</span>
+                    <span>Recently Restocked</span>
+                </div>
+                <a href="#" class="button">Add To Cart</a>
+                <span>50 Hours Playback</span>
+            </div>
+        </div>
+        <div class="card">
+            <img src="air4.jpg" alt="Product 5">
+            <div class="details">
+                <h3>Decode Airdopes Alpha</h3>
+                <div class="price-box">
+                    <div class="price">₹899</div>
+                    <div class="discount">₹3,490 74% off</div>
+                </div>
+                <div class="features">
+                    <span>ENX™™ Technology</span>
+                    <span class="rating">4.9 21</span>
+                </div>
+                <div class="features">
+                    <span>Recently Restocked</span>
+                </div>
+                <a href="#" class="button">Add To Cart</a>
+                <span>35 Hours Playback</span>
+            </div>
+        </div>
+        <div class="card">
+            <img src="air9-removebg-preview (1).png" alt="Product 6">
+            <div class="details">
+                <h3>Decode Nirvan lon</h3>
+                <div class="price-box">
+                    <div class="price">₹2,299</div>
+                    <div class="discount">₹7,990 71% off</div>
+                </div>
+                <div class="features">
+                    <span>ENX™™ Technology</span>
+                    <span class="rating">5.0 77</span>
+                </div>
+                <div class="features">
+                    <span>Engraving Available</span>
+                </div>
+                <a href="#" class="button">Add To Cart</a>
+                <span>120 Hours Playback</span>
+            </div>
+        </div>
+        <div class="card">
+            <img src="wire3-removebg-preview.png" alt="Product 1">
+            <div class="details">
+                <h3>Decode Wireless </h3>
+                <div class="price-box">
+                    <div class="price">₹1,899</div>
+                    <div class="discount">₹2,490 64% off</div>
+                </div>
+                <div class="features">
+                    <span>ASAP™™ Charge</span>
+                    <span class="rating">4.9 172 </span>
+                </div>
+                <div class="features">
+                    <span>IWP Technology</span>
+                    <span>Best seller</span>
+                </div>
+                <a href="#" class="button">Add To Cart</a>
+                <span>90 Hours Playback</span>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img1.jpg" alt="Product 2">
+            <div class="details">
+                <h3>Decode Airdopes 131</h3>
+                <div class="price-box">
+                    <div class="price">₹1,499</div>
+                    <div class="discount">₹2,990 73% off</div>
+                </div>
+                <div class="features">
+                    <span>13mm drivers</span>
+                    <span class="rating">4.8 1359</span>
+                </div>
+                <div class="features">
+                    <span>IWP Technology</span>
+                    <span>Best seller</span>
+                </div>
+                <a href="#" class="button">Add To Cart</a>
+                <span>60 Hours Playback</span>
+            </div>
+        </div>
+        <div class="card">
+            <img src="wire4-removebg-preview.png" alt="Product 3">
+            <div class="details">
+                <h3>Decode Airdopes 141</h3>
+                <div class="price-box">
+                    <div class="price">₹1,299</div>
+                    <div class="discount">₹4,490 71% off</div>
+                </div>
+                <div class="features">
+                    <span>Clear Calling</span>
+                    <span class="rating">4.9 662</span>
+                </div>
+                <div class="features">
+                    <span>ASAP™™ Charge</span>
+                    <span>Best seller</span>
+                </div>
+                <a href="#" class="button">Add To Cart</a>
+                <span>42 Hours Playback</span>
+            </div>
+        </div>
+        
+        </div>
+        
+    </div>
+</body>
+</html>

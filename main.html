@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Earbuds Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+header {
+    
+    background-color:white;
+    color: black;
+    padding: 20px 0;
+    
+}
+
+
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h1 {
+    font-size: 28px;
+    margin-top:14px;
+    margin-left:10px;
+}
+
+.logo p {
+    font-size: 14px;
+    font-style: italic;
+    color: #ccc;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color:black;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.header-info {
+    font-size: 14px;
+    color:black;
+    text-align: right;
+}
+.cont1{
+    height:700px;
+    
+    background-image:url(WhatsApp\ Image\ 2024-08-13\ at\ 11.22.48\ AM_1723528623604.jpeg);
+    background-size:cover;
+    display: flex;
+flex-direction: column-reverse;
+
+}
+.cont2{
+    height:570px;
+    background-color: #f4f4f4;
+background-image: url(Untitled\ design\ \(1\).jpg);
+background-size: cover;
+margin-top:5px;
+position: relative;
+}
+.headphone{
+border-radius:10px;
+height:30px;
+width: 100px;
+
+margin-top:560px;
+
+}
+
+.Product1{
+            height:420px;
+            background-color:white;
+            display: flex;
+            flex-direction: row;
+            justify-content:space-evenly;
+        }
+        .pr1, .pr2, .pr3, .pr4{
+            height:340px;
+            width:300px;
+            margin-top: 30px;  
+            display: flex;  
+            position: relative;
+            flex-direction: column; /* Added to align items vertically */
+        }
+        .pr1{
+            background-color: white;
+        }
+        .pr2{
+            background-color:white;
+        }
+        .pr3{
+            background-color:white;
+        }
+        .pr4{
+            background-color: white;
+        }
+        .ins1, .ins2, .ins3, .ins4,.ins5,.ins6,.ins7,.ins8,.ins9,.ins10,.ins11,.ins12{
+            height:290px;
+            width:300px;
+            background-color: white;
+        }
+        .ins1{
+            background-image: url(air9-removebg-preview\ \(1\).png);
+            background-size:cover;
+            
+
+        }
+        .ins2{
+            background-image: url(air2.png);
+            background-size: cover;
+        }
+        .ins3{
+            background-image:url(air3.webp);
+            background-size: cover;
+        }
+        .ins4{
+            background-image: url(air4-removebg-preview.png);
+            background-size: cover;
+        }
+        .ins9{
+background-image:url(wireless1-removebg-preview.png);
+background-size: cover;
+        }
+        .ins5{
+            background-image: url(head1-removebg-preview.png);
+            background-size: contain;
+        
+        }
+        .ins7{
+            background-image: url(head2-removebg-preview.png);
+            background-size: contain;
+            
+        }
+        .ins6{
+            background-image: url(head3-removebg-preview.png);
+            background-size: contain;
+           
+        }
+        .ins8{
+            background-image: url(head4-removebg-preview.png);
+            background-size: contain;
+           
+        }
+        .ins10{
+            background-image:url(wire2-removebg-preview.png);
+            background-size: cover;
+        }
+        .ins11{
+            background-image:url(wire3-removebg-preview.png);
+            background-size: cover;
+        }
+        .ins12{
+            background-image:url(wire4-removebg-preview.png);
+            background-size: cover;
+        }
+
+        .add-to-cart{
+            position: absolute;
+            bottom: 10px; /* Position the button at the bottom */
+            left: 50%;
+            transform: translateX(-50%);
+            width: 80%;
+            padding: 10px;
+            background-color:#232f3e;
+            color: white;
+            text-align: center;
+            border: none;
+            cursor: pointer;
+            border-radius: 10px;
+        }
+
+    .cont3{
+        height:530px;
+    background-color: #f4f4f4;
+background-image: url(Untitled\ design\ \(2\).jpg);
+background-size: cover;
+margin-top:5px;
+position: relative;
+    }
+
+    footer {
+            background-color:#fff;
+            padding: 20px 0;
+            margin-top:5px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            height: 60px;
+            width: px;
+            font-size: 24px;
+            font-weight: bold;
+            color:black;
+            
+        }
+        
+        .links {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        
+        }
+        .link-group {
+            margin-left: 30px;
+        }
+        .link-group h3 {
+            margin-bottom: 10px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .link-group ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .link-group li {
+            margin-bottom: 5px;
+            font-size: 14px;
+            color: #666;
+        }
+        button{
+            background-color: blue;
+            color: white;
+            border-radius:10px;
+        }
+        a{
+            color:white;
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+       
+        
+        .add-to-cart{
+            position: absolute;
+            bottom: 10px; /* Position the button at the bottom */
+            left: 50%;
+            transform: translateX(-50%);
+            width: 80%;
+            padding: 10px;
+            background-color:#232f3e;
+            color: white;
+            text-align: center;
+            border: none;
+            cursor: pointer;
+            border-radius: 10px;
+        }
+
+        
+    
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Decode</h1>
+                
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="newarr.html">Shop</a></li>
+                    <li><a href="shop.html">New Arrivals</a></li>
+                    <li><a href="best.html">Best Sellers</a></li>
+                    <li><a href="feature.html">Featuring</a></li>
+                    <li><a href="#">Support</a></li>
+                </ul>
+            </nav>
+            <div class="header-info">
+                <p>Free Shipping on Orders Over 1500₹ | 24/7 Customer Support</p>
+               
+            </div>
+        </div>
+    </header>
+    <div class="cont1"></div>
+    <div class="Product1">
+        <div class="pr1"><a href="newarr.html">
+            <div class="ins1"></div>
+        <button class="add-to-cart">See more</button></a>
+        </div>
+        
+        <div class="pr2"><a href="newarr.html">
+            <div class="ins2"></div>
+            <button class="add-to-cart">See More</button></a>
+        </div>
+        <div class="pr3"><a href="newarr.html">
+            <div class="ins3"></div>
+            <button class="add-to-cart">See More</button></a>
+        </div>
+        <div class="pr4"><a href="newarr.html">
+            <div class="ins4"></div>
+            <button class="add-to-cart">See More</button></a>
+        </div>
+      
+    </div>
+    <div class="cont2"></div>
+    <div class="Product1">
+        <div class="pr1"><a href="newarr.html">
+            <div class="ins5"></div>
+            <button class="add-to-cart">See More</button></a>
+        </div>
+        <div class="pr2"><a href="newarr.html">
+            <div class="ins6"></div>
+            <button class="add-to-cart">See More</button></a>
+        </div>
+        <div class="pr3"><a href="newarr.html">
+            <div class="ins7"></div>
+            <button class="add-to-cart">See More</button></a>
+        </div>
+        <div class="pr4"><a href="newarr.html">
+            <div class="ins8"></div>
+            <button class="add-to-cart">See More</button></a>
+        </div>
+      
+    </div>
+    <div class="cont3"></div>
+    <div class="Product1">
+        <div class="pr1"><a href="newarr.html">
+            <div class="ins9"></div>
+            <button class="add-to-cart">See More</button></a>
+        </div>
+        <div class="pr2"><a href="newarr.html">
+            <div class="ins10"></div>
+            <button class="add-to-cart">See More</button></a>
+        </div>
+        <div class="pr3"><a href="newarr.html">
+            <div class="ins11"></div>
+            <button class="add-to-cart">See More</button></a>
+        </div>
+        <div class="pr4"><a href="newarr.html">
+            <div class="ins12"></div>
+            <button class="add-to-cart">See More</button></a>
+        </div>
+      
+    </div>
+
+   
+    <footer>
+        <div class="container">
+            <div class="logo">
+                Decode
+            </div>
+            <div class="links">
+                <div class="link-group">
+                    <h3>Shop</h3>
+                    <ul>
+                        <li>True Wireless Earbuds</li>
+                        <li>Wireless Headphones</li>
+                        <li>Wired Headphones</li>
+                        <li>Home Audio</li>
+                        <li>Smart Watches</li>
+                        <li>Misfit Trimmers</li>
+                    </ul>
+                </div>
+                <div class="link-group">
+                    <h3>Help</h3>
+                    <ul>
+                        <li>Track Your Order</li>
+                        <li>Warranty & Support</li>
+                        <li>Return Policy</li>
+                        <li>Service Centers</li>
+                        <li>Bulk Orders</li>
+                        <li>FAQS</li>
+                        <li>Why Buy Direct</li>
+                    </ul>
+                </div>
+                <div class="link-group">
+                    <h3>Company</h3>
+                    <ul>
+                        <li>About Decode</li>
+                        <li>News</li>
+                        <li>Read Our Blog</li>
+                        <li>Careers</li>
+                        <li>Security</li>
+                        <li>Investor Relations</li>
+                        <li>Social Responsibility</li>
+                        <li>Warranty Policy</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
